@@ -2,16 +2,21 @@
 用于将OBS for Mac播放信息同步至OBS的脚本, 仅支持macOS系统.
 
 ## 截图 
-<img width="570" alt="Xnip2023-02-23_01-17-05" src="https://user-images.githubusercontent.com/16348097/220705745-820c6dd6-8549-4f17-99cc-3171eb00d1d5.png"> 
+<img width="285" alt="Xnip2023-02-23_01-17-05" src="https://user-images.githubusercontent.com/16348097/220705745-820c6dd6-8549-4f17-99cc-3171eb00d1d5.png">
+<img width="285" alt="Xnip2023-02-23_01-17-05" src="https://user-images.githubusercontent.com/16348097/220706430-9ddf68c9-9e6b-4a6b-8b47-b1c2c912ae56.png"> 
 
-![OBS样例](https://user-images.githubusercontent.com/16348097/220706430-9ddf68c9-9e6b-4a6b-8b47-b1c2c912ae56.png) 
+## 安装
+已安装了homebrew的用户可以直接使用brew安装
+```
+brew install lihaoyun6/tap/nm2obs
+```
+也可以 [点此前往](https://github.com/lihaoyun6/NeteaseMusic2OBS/releases/latest) 发行版页面下载压缩包解压运行 (建议使用系统自带的解压工具)  
 
 ## 说明
 脚本无需任何配置, 双击运行即可. 首次使用需授予"终端"辅助功能权限以用于读取网易云歌曲信息  
-脚本使用过程中请务必保持网易云音乐App主窗口打开(可最小化, 但不可点x关闭否则会读不到信息)  
+使用过程中请务必保持网易云音乐App主窗口打开! 可最小化, 但不可点x关闭, 否则会读不到信息  
+使用过程中也千万不要调整网易云窗口大小! 如果调整过, 请将窗口缩至最小状态即可恢复正常读取  
 如需使用歌词读取功能, 请点击网易云音乐App主界面左下角的"歌曲封面"图标展开滚动歌词界面即可  
-
-注: 如双击脚本无法启动, 请授予脚本可执行权限或 [点此前往](https://github.com/lihaoyun6/NeteaseMusic2OBS/releases/latest) 发行版页面下载压缩包解压运行  
 
 ## 用法
 脚本运行后会在当前用户的 `[用户目录]/文稿/网易云OBS` 文件夹中生成如下数据源文件:  
