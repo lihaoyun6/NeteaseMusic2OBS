@@ -1,5 +1,5 @@
 # NeteaseMusic2OBS
-用于将OBS for Mac播放信息同步至OBS的脚本, 仅支持macOS系统.
+用于将网易云音乐 for Mac播放信息同步至OBS的脚本, 仅支持macOS系统.
 
 ## 截图 
 <img width="285" alt="Xnip2023-02-23_01-17-05" src="https://user-images.githubusercontent.com/16348097/220705745-820c6dd6-8549-4f17-99cc-3171eb00d1d5.png">
